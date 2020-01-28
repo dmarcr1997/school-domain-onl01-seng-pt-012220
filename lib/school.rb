@@ -18,6 +18,7 @@ class School
     return @roster[grade]
   end
   def sort
-   sorted_roster=@roster.keys + @roster.values.sort!
+    @roster.each do |grade, names|
+      sorted_roster
   end
 end
